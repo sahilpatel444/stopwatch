@@ -14,14 +14,29 @@ body{
     flex-direction: column;
 }
 .stopwatch{
-   background-color: rgba(74, 19, 225, 0.9);
+   background-color: transparent;
    padding: 20px 24px;
    border-radius: 20px
+   background-image: url(nature.jpg);
+   background-image: url(nature.jpg);
+
+   background-size: 100% 100%;
+
 }
 .timerdisplay{
     font-size: 50px;
     font-weight: 600;
-    background-color: rgb(12, 177, 232);
+    background-color:transparent;
+    display: grid;
+    place-items: center;
+   
+}
+.h1{
+    color:transparent;
+    background-image: url(free-nature-images.jpg);
+    
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
 }
 .buttons{
     margin-top: 20px;
@@ -40,9 +55,12 @@ body{
     font-family: initial;
 }
 .sv{
-    color: #f230c5;
+    color: #c6e613;
     margin: 20px;
     padding: 20px;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    width: 400px;
 }
